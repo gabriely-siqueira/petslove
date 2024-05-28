@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="icon" href="/src/images/paw-solid.svg" type="image/x-icon">
+    <title>Petslove</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-paw"> petslove</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about">Sobre</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Agende um horário
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about">Sobre</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Agende um horário
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Aqui cuidamos do seu pet com
+                    <span>amor</span>
+                </h1>
+
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit ut aliquam, purus sit amet
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Agende um horário
+                    </a>
+
+                    <a href="tel:+55555555555" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (51) 92123-4566
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    
+                    <a href="">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/images/pet.png" alt="">
+            </div>
+        </section>
+
+        <section id="services">
+            <h2 class="section-title">Serviços</h2>
+            <h3 class="section-subtitle">Nossos Principais Serviços</h3>
+        
+            <div id="service-list">
+                <div class="service-item">
+                    <div class="service-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+        
+                    <img src="src/images/cat.jpg" class="service-image" alt="">
+        
+                    <h3 class="service-title">
+                        Lorem Ipsum
+                    </h3>
+        
+                    <span class="service-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+        
+                    <div class="service-price">
+                        <h4>R$20,00</h4>
+                    </div>
+                    <button class="btn-default">
+                        Saiba mais
+                    </button>
+                </div>
+        
+                <div class="service-item">
+                    <div class="service-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+        
+                    <img src="src/images/dog1.jpg" class="service-image" alt="">
+        
+                    <h3 class="service-title">
+                        Lorem Ipsum
+                    </h3>
+        
+                    <span class="service-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+        
+                    <div class="service-price">
+                        <h4>R$20,00</h4>
+                    </div>
+        
+                    <button class="btn-default">
+                        Saiba mais
+                    </button>
+                </div>
+        
+                <div class="service-item">
+                    <div class="service-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+        
+                    <img src="src/images/dog2.webp" class="service-image" alt="">
+        
+                    <h3 class="service-title">
+                        Lorem Ipsum
+                    </h3>
+        
+                    <span class="service-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+        
+                    <div class="service-price">
+                        <h4>R$20,00</h4>
+                    </div>
+        
+                    <button class="btn-default">
+                        Saiba mais
+                    </button>
+                </div>
+        
+                <div class="service-item">
+                    <div class="service-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+        
+                    <img src="src/images/food.jpg" class="service-image" alt="">
+        
+                    <h3 class="service-title">
+                        Lorem Ipsum
+                    </h3>
+        
+                    <span class="service-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+        
+                    <div class="service-price">
+                        <h4>R$20,00</h4>
+                    </div>
+                    <button class="btn-default">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </section>
+        
+
+    </section>
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2 class="section-title">Sobre</h2>
+            <h1>Pet Shop <span>Petslove</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi modi, molestias eos voluptates officiis accusantium exercitationem, iure odio porro doloribus assumenda quam maiores! Rem consectetur modi non doloribus, sapiente provident facere dolorum fugiat quae enim delectus soluta, ab ullam qui nulla labore? Numquam, libero dolore! Praesentium dolorem illum assumenda vel?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi modi, molestias eos voluptates officiis accusantium exercitationem, iure odio porro doloribus assumenda quam maiores! Rem consectetur modi non doloribus, sapiente provident facere dolorum fugiat quae enim delectus soluta, ab ullam qui nulla labore? Numquam, libero dolore! Praesentium dolorem illum assumenda vel?</p>
+            <div class="about-images">
+                <div class="about-img">
+                    <img src="src/images/petshop.jpg" alt="Petshop Picture" />
+                </div>
+                <div class="about-img">
+                    <img src="src/images/petshop.jpg" alt="Petshop Picture" />
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy; Petslove | Designed by Gabriely Siqueira
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="">
+                    <i class="fa-solid fa-location-dot"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
