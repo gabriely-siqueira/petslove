@@ -28,6 +28,17 @@ html {
     scroll-behavior: smooth;
 }
 
+html::-webkit-scrollbar{
+    width: .6rem;
+}
+ 
+html::-webkit-scrollbar-track{
+    background-color: var(--color-neutral-0);
+}
+ 
+html::-webkit-scrollbar-thumb{
+    background-color: var(--color-primary-6);
+}
 body {
     background-color: var(--color-primary-1);
 }
